@@ -1,0 +1,70 @@
+.app-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 70%;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: white;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-item span {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.todo-item .completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+}
+
+.delete-button:hover {
+    background-color: #ff1a1a;
+}
